@@ -1,1 +1,20 @@
-# Gerador-de-c-digo-de-barras-e-qrcode
+<h1>Gerador de Código de Barras e QRCODE</h1>
+
+Este código escrito em python é capaz de gerar codigo de barras e também qrcode.
+
+<h2>Funções</h2>
+O usuário poderá gerar codigo de barras e qrcode de duas maneiras:
+1 - O usuário insere um link, texto, etc e então o programa gera um qrcode na mesma pasta em que o usuario está, podendo gerar quantos quiser.
+2 - O usuário importa um arquivo de texto(.txt) que deve conter os links que serão usados para gerar.
+3 - Após gerar o primeiro, o programa perguntará se o usuário deseja continuar ou encerrar.
+
+<h2>Avisos</h2>
+Para qrcode o usuário pode inserir links, texto, numeros, etc.
+Para código de barras, o usuário pode inserir apenas números e inserir apenas 12 caracteres.
+Caso o arquivo de texto inserido esteja vazio ou contenha linhas em branco, o programa retornará erro.
+Ao gerar codigo de barra, caso o arquivo de texto contenha alguma letra junto com os números, o programa retornará erro.
+Se o arquivo não for de texto(.txt), o programa não ira abrir o arquivo.
+
+<h2>Bibliotecas Neccessárias</h2>
+Tkinter
+Para
