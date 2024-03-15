@@ -6,8 +6,9 @@ import qrcode
 from barcode import EAN13
 from barcode.writer import ImageWriter
 
-#um codigo simples para gerar qrcode ou codigo de barras
+#um codigo para gerar qrcode ou codigo de barras
 # o usuario pode passar as informações que serao convertidas ou um txt com as informações
+
 def Tentar_novamente():
     op = input('Escolha uma opção: \n1 - Continuar \n2 - Encerra Programa\n:')
     if op == '1':
